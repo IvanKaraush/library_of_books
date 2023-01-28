@@ -10,7 +10,7 @@ composer i
 ```bash
 php artisan serve
 ```
-Важно! База данных "library", все эти параметры можно поменять в .env
+Важно! переименовать .env.example в .env. База данных "library", все эти параметры можно поменять в .env (в этом же файле поменять DB_DATABASE=library)
 После чего выполнить миграцию
 ```bash
 php artisan migrate
